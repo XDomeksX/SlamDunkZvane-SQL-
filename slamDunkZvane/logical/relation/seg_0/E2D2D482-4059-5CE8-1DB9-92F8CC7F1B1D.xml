@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Nar-NArt" directorySegmentName="seg_0" id="E2D2D482-4059-5CE8-1DB9-92F8CC7F1B1D">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:36:49 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<sourcePk>EB29AA14-EA57-3227-BA21-46E85C87E5B8</sourcePk>
+<targetPk>85D8993F-D47C-F9A5-6A6D-4BB49FB2E9D1</targetPk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>ED9D30A4-06F2-48CC-88F7-6308606D9552</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A0122979-352D-2C0F-1B45-688CA7A44CFA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

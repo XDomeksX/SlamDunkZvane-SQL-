@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Kup-AKup" directorySegmentName="seg_0" id="83898E21-05D1-898F-4C2F-8FB442AEF196">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:26:46 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<sourcePk>EBC4A02A-7CDB-61CB-1C74-CB0E277951B0</sourcePk>
+<targetPk>069398FF-5868-43DE-ACE1-0978053C770C</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>76645017-11C0-6D6B-5ACF-45F3971F915E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>96A286C9-DBD1-A8FF-FC36-FA1732DD7C30</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

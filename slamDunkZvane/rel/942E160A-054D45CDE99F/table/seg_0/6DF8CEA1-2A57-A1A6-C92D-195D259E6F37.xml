@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6DF8CEA1-2A57-A1A6-C92D-195D259E6F37" name="Individualni_kupac">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>3783543E-DE39-6DBD-A85B-2E86E001A840</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<abbreviation>INK</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="KUP_Kupac_ID" id="F84E2FB4-8536-3B53-AFF9-D2447D4AB70A">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>DEA17149-448A-7C83-3F6A-2E24764444A8</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="218C0F5F-B064-8CE3-A855-58073D9C1B36" referredColumn="501EF480-01E8-8369-9615-6E2670FDBA62"/>
+</associations>
+</Column>
+<Column name="INK_broj_kartice_vrijednosti" id="C9DAEE56-5E2E-BADD-3436-DF9D614A9270">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>B5F76D89-5A6D-19AB-B3AC-FE705CDCC575</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A5AA78D7-CE4E-9E3B-DAE8-1C912091825E" name="Individualni_kupac_PK">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>EBC4A02A-7CDB-61CB-1C74-CB0E277951B0</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F84E2FB4-8536-3B53-AFF9-D2447D4AB70A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B84C0561-0085-D69F-E5EB-87BEC61B718C" name="Individualni_kupac_Kupac_FK">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:44:25 UTC</createdTime>
+<generatorID>1E7D5845-F86C-AB76-C207-2EB470E987AF</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F84E2FB4-8536-3B53-AFF9-D2447D4AB70A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

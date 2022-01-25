@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE83CEFB-0A03-8EE3-EF7D-D2FA65C20EC6" name="Povijest cijena">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:28:44 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vrijeme_promjene" id="71F657DA-3DE9-D58F-B0E7-CA64E3E8867F">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:29:10 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_promjene" id="BBC01F55-DBB1-576E-EA29-4A92702A1874">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:30:08 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cijena" id="90CF65C7-EFDA-6F81-94E3-FA83C93A2A1B">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:31:09 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT043</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="datum_isteka" id="8EA75E00-4630-FF7F-C803-CC30201F9E0C">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:31:46 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vrijeme_isteka" id="7D9B17BD-34D7-E5C5-8911-74AD4C1BEDCE">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:32:17 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Artikl_ID" id="CD55E6EC-7BCB-6093-9F2D-6803259EA176">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:32:54 UTC</createdTime>
+<generatorID>DA8BFEEA-C6DD-B13E-1807-A8C3A2A01AAB</generatorID>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<referedAttribute>ABA72962-B114-7287-9307-0D31A40ABAAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CFE33B5A-B633-FBCE-8B66-EE880C5D25D2" name="Povijest cijena PK">
+<createdBy>domen</createdBy>
+<createdTime>2022-01-25 11:30:04 UTC</createdTime>
+<ownerDesignName>slamDunkZvane</ownerDesignName>
+<engineerTo>
+<item key="942E160A-9396-8E8B-8EA5-054D45CDE99F" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>71F657DA-3DE9-D58F-B0E7-CA64E3E8867F</attributeRef>
+<attributeRef>BBC01F55-DBB1-576E-EA29-4A92702A1874</attributeRef>
+<attributeRef>CD55E6EC-7BCB-6093-9F2D-6803259EA176</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
